@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{47eacc27-b113-46e8-b9ae-4df62a327da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{2299ebef-159c-4584-80be-828c44aea805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\component">
+      <UniqueIdentifier>{d577848b-1569-4405-a2ee-ca75f4fdd726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine\component\component_container.h">
+      <Filter>src\engine\component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\component\component.h">
+      <Filter>src\engine\component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\component\component_container.cpp">
+      <Filter>src\engine\component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\component\main.cpp">
+      <Filter>src\engine\component</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
