@@ -10,6 +10,9 @@
     <Filter Include="includes">
       <UniqueIdentifier>{254a3667-1cdf-4b9f-b2e7-47bffdc6ca89}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\state">
+      <UniqueIdentifier>{7c2faf1d-f7da-488e-8dea-96f1655de9c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\component.h">
@@ -18,11 +21,20 @@
     <ClInclude Include="includes\component_container.h">
       <Filter>includes</Filter>
     </ClInclude>
+    <ClInclude Include="includes\state.h">
+      <Filter>src\state</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\state_manager.h">
+      <Filter>src\state</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libs\component_container.cpp">
       <Filter>libs</Filter>
     </ClCompile>
     <ClCompile Include="libs\main.cpp" />
+    <ClCompile Include="libs\state_manager.cpp">
+      <Filter>src\state</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

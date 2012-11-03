@@ -66,10 +66,13 @@
   <ItemGroup>
     <ClInclude Include="includes\component.h" />
     <ClInclude Include="includes\component_container.h" />
+    <ClInclude Include="includes\state.h" />
+    <ClInclude Include="includes\state_manager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libs\component_container.cpp" />
     <ClCompile Include="libs\main.cpp" />
+    <ClCompile Include="libs\state_manager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
